@@ -1,0 +1,51 @@
+h1{
+    color: rgb(0, 217, 255);
+    font-size: 100px;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+
+img{
+    border-radius: 50px;
+    width: 25%;
+    height: 25%;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#mainpic{
+    height: 80%;
+    width: 50%;
+    float: left;
+
+}
+
+.hobbies{
+    clear: both;
+    text-align: center;
+}
+
+#content{
+    clear: both;
+    text-align: center;
+}
+
+#myFav li{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#games li{
+    list-style: square;
+    margin: 0;
+}
+
+a{
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}
+

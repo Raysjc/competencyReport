@@ -1,0 +1,93 @@
+body{
+  text-align: center;
+  margin:0;
+  background: linear-gradient(120deg,rgb(252, 16, 16),rgb(2, 185, 247));
+  background-size: 400% 400%;
+  animation: Backgroundradient 30s ease infinite;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes Backgroundradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+
+img{
+  text-align: center;
+  border-radius: 25%;
+  float: left;
+  margin: 0;
+}
+
+p{
+  font-size: 20px;
+  color: honeydew;
+}
+
+#header{
+  margin: 0;
+  padding: 25px;
+}
+
+h1, h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size:30px;
+  margin: 5px;
+}
+
+ul .navActive{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+a:hover{
+  border: 1px solid black;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#social ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-snapchat{
+    background: lightblue;
+    color: yellow;
+}
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
